@@ -1,0 +1,569 @@
+.first-container {
+    background-image: url("../img/image\ \(17\).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    overflow-x: hidden;
+    position: relative;
+    text-align: center;
+
+}
+
+.heading h1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 2.5em;
+    font-family: 'Montserrat', sans-serif;
+    top: 205px;
+    color: white;
+}
+
+.subheading {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    top: 230px;
+    color: white;
+}
+
+@media screen and (max-width: 380px) {
+    .heading h1 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .subheading {
+        font-size: 14px;
+        justify-content: center;
+        width: 315px;
+        margin: auto;
+    }
+}
+
+.button button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid lightcoral;
+    background: lightcoral;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    top: 265px;
+    font-family: 'Montserrat', sans-serif;
+    transition-duration: 0.4s;
+}
+
+@media screen and (max-width: 380px) {
+    .button button {
+        width: 150px;
+        left: 6px;
+        font-size: 12px;
+    }
+}
+
+.button button:hover {
+    background: transparent;
+    color: white;
+}
+
+.icon {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+@media (min-width: 1200px) {
+    .first-container {
+        max-width: 100%;
+    }
+}
+
+.second-container {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+    position: relative;
+    text-align: center;
+    background: snow;
+}
+
+.second-heading h1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 2.5em;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    margin-bottom: 40px;
+    top: 20px;
+}
+
+.row {
+    position: relative;
+}
+
+.column-1 {
+    position: relative;
+    overflow: hidden;
+    padding: 5px;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: block;
+}
+
+.column-1 img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.column-2 {
+    position: relative;
+    overflow: hidden;
+    padding: 5px;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: block;
+}
+
+.column-2 img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.column-3 {
+    position: relative;
+    overflow: hidden;
+    padding: 5px;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: block;
+}
+
+.column-3 img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.column-4 {
+    position: relative;
+    overflow: hidden;
+    padding: 5px;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: block;
+}
+
+.column-4 img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.column-5 {
+    position: relative;
+    overflow: hidden;
+    padding: 5px;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: block;
+}
+
+.column-5 img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.column-6 {
+    position: relative;
+    overflow: hidden;
+    padding: 5px;
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    text-align: center;
+    display: block;
+}
+
+.column-6 img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .row {
+        width: 100%;
+    }
+}
+
+.third-container {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.third-heading h1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 2.5em;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    margin-bottom: 40px;
+    top: 20px;
+}
+
+.rates h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    margin-left: 75px;
+    box-shadow: 0 0 6px rgb(73, 73, 73);
+    text-align: center;
+}
+
+.content-table td {
+    padding: 12px 15px;
+    border-left: none;
+    border-right: none;
+}
+
+.content-table tr td {
+    width: 100%;
+}
+
+.content-table th {
+    border-left: none;
+    border-right: none;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid lightgray;
+}
+
+.savings h3 {
+    padding-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.savings h4 {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 20px;
+}
+
+.savings i {
+    color: rgb(2, 216, 2);
+    padding-right: 15px;
+}
+
+.testimonials {
+    padding: 40px 0;
+    background: #f1f1f1;
+    color: #434343;
+    text-align: center;
+    height: 100vh;
+}
+
+.inner {
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.inner h1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 2.5em;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    margin-bottom: 40px;
+    top: 20px;
+}
+
+.border {
+    width: 160px;
+    height: 5px;
+    background: lightskyblue;
+    margin: 26px auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col {
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.testimonial {
+    background: #fff;
+    padding: 30px;
+}
+
+.testimonial-container {
+    width: 250px;
+    height: 250px;
+}
+
+@media screen and (max-width:960px) {
+    .col {
+        flex: 100%;
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .col {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .testimonials {
+        height: 100%;
+    }
+}
+
+.fifth-container {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.fifth-heading h1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 3.0em;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    margin-bottom: 60px;
+    top: 50px;
+}
+
+.border {
+    width: 160px;
+    height: 5px;
+    background: lightcoral;
+    margin: 26px auto;
+    margin-bottom: 120px;
+}
+
+.table-content {
+    border-collapse: collapse;
+    margin: 35px 0;
+    min-width: 500px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    margin-left: 305px;
+    box-shadow: 0 0 6px rgb(73, 73, 73);
+}
+
+.table-content thead tr {
+    text-align: left;
+    font-size: 1em;
+    height: 50px;
+    display: inline;
+    position: relative;
+    left: 56%;
+    top: 10px;
+    color: black;
+}
+
+.table-content thead tr th {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.table-content td {
+    padding: 12px 15px;
+    border-left: none;
+    border-right: none;
+}
+
+.table-content th {
+    border-left: none;
+    border-right: none;
+    width: 100%;
+}
+
+.table-content tbody tr {
+    border-bottom: 1px solid lightgray;
+    text-align: left;
+}
+
+.table-content td i {
+    color: rgb(2, 216, 2);
+    vertical-align: middle;
+}
+
+@media screen and (max-width:600px) {
+    .table-content {
+        min-width: 5px;
+        height: 50%;
+        margin-top: -20px;
+        margin-left: 2%;
+    }
+
+    .table-content tr td {
+        height: 70%;
+        width: 100%;
+        display: table-cell;
+        text-align: left;
+    }
+
+    .table-content tr {
+        display: inline-block;
+        text-align: left;
+        font-size: 0.7em;
+        width: 100%;
+        text-align: left;
+    }
+
+    .table-content th {
+        display: inline-block;
+    }
+
+    .table-content tr th {
+        display: inline;
+        font-size: 0.9em;
+        position: relative;
+        right: 19%;
+        top: 10%;
+        color: black;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .content-table {
+        width: 75%;
+        height: 55%;
+        margin-top: -20px;
+        margin-left: 13%;
+    }
+
+    .content-table tr td {
+        height: 70%;
+        width: 100%;
+        display: inline-flex;
+    }
+
+    .content-table tr {
+        display: table-cell;
+        text-align: left;
+        font-size: 0.7em;
+    }
+
+    .rates h3 {
+        top: 15%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .savings h4 {
+        font-size: 1em;
+    }
+
+    .savings h3 {
+        font-size: 1.3em;
+    }
+
+    .third-heading h1 {
+        font-size: 2em;
+    }
+
+    .rates h3 {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .fifth-heading h1 {
+        font-size: 2.5em;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .second-heading h1 {
+        font-size: 2.5em;
+    }
+}
+
+.contact-container {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.contact-text h3 {
+    text-align: center;
+    color: rgb(63, 62, 62);
+    padding-top: 15%;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+@media screen and (max-width: 600px) {
+    .contact-text h3 {
+        font-size: 1em;
+        padding-top: 15%;
+    }
+}
